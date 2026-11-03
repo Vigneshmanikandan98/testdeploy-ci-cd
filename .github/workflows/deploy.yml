@@ -24,7 +24,7 @@ env:
 jobs:
   # CD only ships code that passes CI. Same checks as pull requests, run on the merged code.
   ci:
-    uses: ./.github/workflows/ci.yml
+    uses: ./.github/workflows/ci-new.yml
 
   deploy:
     needs: ci
