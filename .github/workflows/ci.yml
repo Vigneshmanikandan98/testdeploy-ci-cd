@@ -1,4 +1,4 @@
-name: CI
+name: CI-new test
 
 # CI = "is this change safe to merge?" Runs on every pull request into main,
 # and is reused by deploy.yml so merged code is checked again before it ships.
